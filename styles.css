@@ -1,0 +1,9 @@
+/* div is the selector with a class third having specificity ul tag with li tag associated with 
+psuedo-class nth-child of list order 3 */
+div.third ul li:nth-child(3) {
+background: blue;
+}
+/* The following code capitalizes every word in a line within the li tag */
+li {
+    text-transform: capitalize;
+}
